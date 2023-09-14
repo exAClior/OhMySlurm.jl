@@ -1,0 +1,13 @@
+name = "OhMySlurm"
+uuid = "c44fecd0-d141-4505-bb48-b9f9bd8a7685"
+authors = ["Yusheng Zhao <yushengzhao2020@outlook.com> and contributors"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
