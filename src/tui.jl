@@ -16,8 +16,8 @@ function prompt()
 		list_jobs()
 	elseif input == "Job info"
 		println("Enter job id: ")
-		job_id = readline()
-		job_info(Int64(job_id))
+		job_id = parse(Int, readline())
+		job_info(job_id)
 	elseif input == "exit"
 		exit()
 	elseif input == "?"
